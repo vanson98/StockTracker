@@ -1,0 +1,6 @@
+dotnet new web --framework "net7.0"
+dotnet add package <package_name> --version <v_number>
+==== EF ====
+dotnet tool install -g dotnet-ef 		// install dotnet-ef
+dotnet ef migrations add InitialCreate
+dotnet ef database update
